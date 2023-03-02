@@ -13,6 +13,13 @@ export default defineConfig({
                 `grid-cols-${key} lg:grid-cols-${key} xl:grid-cols-${key} md:grid-cols-${key} sm:grid-cols-${key}`
         ),
     theme: {
-
+        colors:{
+            experimental: '#DEFD34',
+            artisanat: '#F1F1F1',
+            global:'#141414',
+        },
+        fontFamily: {
+            sans: ['Helveticaneue', 'sans-serif'],
+        },
     },
 })
