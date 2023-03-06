@@ -11,7 +11,7 @@
         <img class="rounded h-30 w-60" src="https://picsum.photos/200">
       </div>
     </div>
-    <div class="absolute bottom-0 w-full flex flex-row justify-center p-2 bg-experimental">
+    <div class="absolute bottom-0 w-full flex flex-row justify-center p-2 bg-experimental font-IBMRegular">
       test
     </div>
   </div>

@@ -10,5 +10,8 @@
   "devDependencies": {
     "nuxt": "^3.2.3",
     "nuxt-windicss": "^2.6.0"
+  },
+  "dependencies": {
+    "locomotive-scroll": "^4.1.4"
   }
 }

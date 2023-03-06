@@ -14,12 +14,15 @@ export default defineConfig({
         ),
     theme: {
         colors:{
+            divider: '#000000',
+            text: '#141414',
             experimental: '#DEFD34',
             artisanat: '#F1F1F1',
             global:'#141414',
         },
         fontFamily: {
             sans: ['Helveticaneue', 'sans-serif'],
+            ibm:['IBMRegular']
         },
     },
 })

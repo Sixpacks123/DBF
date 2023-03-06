@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'Helveticaneue';
-    src: url('../font/helveticaneue.woff') format('woff')
-}
-
-* {
-    font-family: "Helveticaneue", sans-serif;
-}
