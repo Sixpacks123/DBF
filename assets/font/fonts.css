@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'HelveticaBIG';
+    font-size: 130px;
+    src: url('./helvetica/HelveticaNeue-Medium.ttf');
+}
+
+@font-face {
+    font-family: IBMRegular;
+    font-size: 17px;
+    src: url('./IBM_Plex_Mono/IBMPlexMono-Regular.ttf');
+}

@@ -3,4 +3,6 @@ export default defineNuxtConfig({
     modules: [
         'nuxt-windicss',
     ],
+    css: ['@/assets/font/fonts.css'],
+
 })

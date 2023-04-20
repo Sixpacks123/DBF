@@ -1,17 +1,11 @@
 <template>
-  <div class="container mx-auto">
-    <nav class="flex flex-wrap items-center justify-between w-full text-lg text-gray-700 bg-white">
-      <div>
-        <a href="#">
-          ICI le LOGO
+  <div class="w-full sticky top-0 z-30 block opacity-100 bg-white">
+    <nav class="ml-36 mr-36 border-gray-200">
+      <div class="container flex flex-wrap items-center justify-between mx-auto">
+        <a href="#" class="flex items-center">
+          <img  class="w-20" src="/img/Logo.png">
         </a>
-      </div>
-      <a href="#">
-        <svg xmlns="<http://www.w3.org/2000/svg>" id="menu-button" class="h-6 w-6 cursor-pointer md:hidden block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </a>
-      <div class="hidden w-full md:flex md:items-center md:w-auto " id="menu">
+        <div class="hidden w-full md:block md:w-auto" id="navbar-multi-level">
         <ul
             class="
               text-base text-gray-700
@@ -21,13 +15,13 @@
               md:pt-0"
         >
           <li>
-            <a class="md:p-4 py-2 block " href="#"
-            >Domicile</a
+            <NuxtLink class="md:p-4 py-2 block " to="/"
+            >Domicile</NuxtLink
             >
           </li>
           <li>
-            <a class="md:p-4 py-2 block " href="#"
-            >Bibliothèque</a
+            <NuxtLink class="md:p-4 py-2 block " to="/bibliotheque"
+            >Bibliothèque</NuxtLink
             >
           </li>
           <li>
@@ -43,6 +37,8 @@
           </li>
         </ul>
       </div>
+      </div>
     </nav>
   </div>
+
 </template>
